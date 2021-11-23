@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 function AllMeetUpsPage() {
   const [isloading, setisloading] = useState(true);
   const [loadedmeetups, setloadedmeetups] = useState([]);
-
+//helloooooo
   useEffect(() => {
     setisloading(true);
     fetch(
